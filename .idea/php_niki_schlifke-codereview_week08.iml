@@ -19,5 +19,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="jquery.validate" level="application" />
   </component>
 </module>

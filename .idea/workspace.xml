@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48c465df-1c04-4514-bdd3-b61569c3675e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/cart.js" afterPath="$PROJECT_DIR$/scripts/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/product.js" afterPath="$PROJECT_DIR$/scripts/product.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
+    <list default="true" id="48c465df-1c04-4514-bdd3-b61569c3675e" name="Default" comment="refactor pages">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buyProducts.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php_niki_schlifke-codereview_week08.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initdb.php" afterPath="$PROJECT_DIR$/initdb.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,21 +78,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="814">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <file leaf-file-name="shoppingCartItems.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/shoppingCartItems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="148">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoppingCartTotal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/shoppingCartTotal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -96,8 +111,8 @@
       <file leaf-file-name="getProducts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="259">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -106,18 +121,8 @@
       <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1117">
-              <caret line="93" column="47" lean-forward="false" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DHTML.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38554">
-              <caret line="1042" column="0" lean-forward="false" selection-start-line="1042" selection-start-column="0" selection-end-line="1042" selection-end-column="0" />
+            <state relative-caret-position="479">
+              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,43 +132,60 @@
         <entry file="file://$PROJECT_DIR$/scripts/cart.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="962">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initdb.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="initdb.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/initdb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="944">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding>
-                <marker date="1492345196412" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
-                <marker date="1492345196412" expanded="true" signature="292:388" ph="INSERT INTO product... " />
-                <marker date="1492345196412" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
-                <marker date="1492345196412" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+                <marker date="1494445513033" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
+                <marker date="1494445513033" expanded="true" signature="292:388" ph="INSERT INTO product... " />
+                <marker date="1494445513033" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
+                <marker date="1494445513033" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+                <marker date="1494445513033" expanded="true" signature="684:796" ph="INSERT INTO bill... " />
+                <marker date="1494445513033" expanded="true" signature="845:914" ph="INSERT INTO cart... " />
+                <marker date="1494445513033" expanded="true" signature="973:1082" ph="INSERT INTO cart_composition... " />
+                <marker date="1494445513033" expanded="true" signature="1132:1219" ph="INSERT INTO region... " />
+                <marker date="1494445513033" expanded="true" signature="1272:1371" ph="INSERT INTO customer... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
+      <file leaf-file-name="buyProducts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buyProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createdb.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/createdb.sql">
+      <file leaf-file-name="confirmPayment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confirmPayment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1850">
-              <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+            <state relative-caret-position="2008">
+              <caret line="76" column="65" lean-forward="false" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/payment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,12 +197,15 @@
       <list>
         <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>uuid</find>
+      <find>k&quot;&gt;(.+)&lt;</find>
+      <find>&lt;div.*form-control-feedback.*</find>
       <find>img</find>
     </findStrings>
   </component>
@@ -195,12 +220,19 @@
         <option value="$PROJECT_DIR$/populatedb.php" />
         <option value="$PROJECT_DIR$/createdb.sql" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/initdb.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scripts/cart.js" />
+        <option value="$PROJECT_DIR$/confirmPayment.php.html" />
+        <option value="$PROJECT_DIR$/scripts/payment.js" />
         <option value="$PROJECT_DIR$/scripts/product.js" />
+        <option value="$PROJECT_DIR$/includes/shoppingcart.php" />
+        <option value="$PROJECT_DIR$/includes/shoppingCartItems.php" />
+        <option value="$PROJECT_DIR$/includes/shoppingCart.php" />
+        <option value="$PROJECT_DIR$/includes/shoppingCartTotal.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/confirmPayment.php" />
+        <option value="$PROJECT_DIR$/initdb.php" />
       </list>
     </option>
   </component>
@@ -293,6 +325,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_niki_schlifke-codereview_week08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_niki_schlifke-codereview_week08" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -312,6 +358,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -413,12 +460,41 @@
       <workItem from="1492424282670" duration="6425000" />
       <workItem from="1492776110044" duration="12941000" />
       <workItem from="1493024090468" duration="17000" />
-      <workItem from="1494427776784" duration="8257000" />
+      <workItem from="1494427776784" duration="17309000" />
     </task>
+    <task id="LOCAL-00001" summary="add shopping cart total display">
+      <created>1494436165418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494436165418</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add payment form">
+      <created>1494439884534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494439884534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor pages">
+      <created>1494445641866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1494445641866</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor pages">
+      <created>1494445676603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494445676603</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48897000" />
+    <option name="totallyTimeSpent" value="57949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="-7" width="3094" height="1807" extended-state="6" />
@@ -428,6 +504,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -440,7 +517,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -450,126 +526,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add shopping cart total display" />
+    <MESSAGE value="add payment form" />
+    <MESSAGE value="refactor pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor pages" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2368">
-          <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4</OriginalElement>
-          <nodes>
-            <node x="241.0" y="327.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.address</node>
-            <node x="738.0" y="1176.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.product_image</node>
-            <node x="361.0" y="1176.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.cart_composition</node>
-            <node x="113.0" y="893.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.cart</node>
-            <node x="359.0" y="871.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.user</node>
-            <node x="625.0" y="849.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.product</node>
-            <node x="0.0" y="1176.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.bill</node>
-            <node x="231.0" y="566.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.customer</node>
-            <node x="221.0" y="0.0">75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.region</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.product_image" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.product">
-              <point x="0.0" y="-116.5" />
-              <point x="861.0" y="1151.0" />
-              <point x="824.5" y="1151.0" />
-              <point x="66.5" y="138.5" />
-            </edge>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.cart_composition" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.product">
-              <point x="63.0" y="-116.5" />
-              <point x="550.0" y="1151.0" />
-              <point x="691.5" y="1151.0" />
-              <point x="-66.5" y="138.5" />
-            </edge>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.bill" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.cart">
-              <point x="0.0" y="-116.5" />
-              <point x="123.0" y="1151.0" />
-              <point x="169.5" y="1151.0" />
-              <point x="-56.5" y="94.5" />
-            </edge>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.address" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.region">
-              <point x="0.0" y="-94.5" />
-              <point x="0.0" y="138.5" />
-            </edge>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.customer" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.address">
-              <point x="0.0" y="-116.5" />
-              <point x="0.0" y="94.5" />
-            </edge>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.cart_composition" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.cart">
-              <point x="-63.0" y="-116.5" />
-              <point x="424.0" y="1151.0" />
-              <point x="282.5" y="1151.0" />
-              <point x="56.5" y="94.5" />
-            </edge>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.user" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.customer">
-              <point x="0.0" y="-116.5" />
-              <point x="482.0" y="824.0" />
-              <point x="415.5" y="824.0" />
-              <point x="61.5" y="116.5" />
-            </edge>
-            <edge source="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.cart" target="75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.customer">
-              <point x="0.0" y="-94.5" />
-              <point x="226.0" y="824.0" />
-              <point x="292.5" y="824.0" />
-              <point x="-61.5" y="116.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="492.0" y="705.0" />
-          <SelectedNodes>
-            <node>75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.TABLE:ecommerce.region</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
@@ -591,10 +560,15 @@
         <state relative-caret-position="999">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1492345196412" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
-            <marker date="1492345196412" expanded="true" signature="292:388" ph="INSERT INTO product... " />
-            <marker date="1492345196412" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
-            <marker date="1492345196412" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+            <marker date="1494445513033" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
+            <marker date="1494445513033" expanded="true" signature="292:388" ph="INSERT INTO product... " />
+            <marker date="1494445513033" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
+            <marker date="1494445513033" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+            <marker date="1494445513033" expanded="true" signature="684:796" ph="INSERT INTO bill... " />
+            <marker date="1494445513033" expanded="true" signature="845:914" ph="INSERT INTO cart... " />
+            <marker date="1494445513033" expanded="true" signature="973:1082" ph="INSERT INTO cart_composition... " />
+            <marker date="1494445513033" expanded="true" signature="1132:1219" ph="INSERT INTO region... " />
+            <marker date="1494445513033" expanded="true" signature="1272:1371" ph="INSERT INTO customer... " />
           </folding>
         </state>
       </provider>
@@ -756,10 +730,15 @@
         <state relative-caret-position="999">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1492345196412" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
-            <marker date="1492345196412" expanded="true" signature="292:388" ph="INSERT INTO product... " />
-            <marker date="1492345196412" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
-            <marker date="1492345196412" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+            <marker date="1494445513033" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
+            <marker date="1494445513033" expanded="true" signature="292:388" ph="INSERT INTO product... " />
+            <marker date="1494445513033" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
+            <marker date="1494445513033" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+            <marker date="1494445513033" expanded="true" signature="684:796" ph="INSERT INTO bill... " />
+            <marker date="1494445513033" expanded="true" signature="845:914" ph="INSERT INTO cart... " />
+            <marker date="1494445513033" expanded="true" signature="973:1082" ph="INSERT INTO cart_composition... " />
+            <marker date="1494445513033" expanded="true" signature="1132:1219" ph="INSERT INTO region... " />
+            <marker date="1494445513033" expanded="true" signature="1272:1371" ph="INSERT INTO customer... " />
           </folding>
         </state>
       </provider>
@@ -893,10 +872,15 @@
         <state relative-caret-position="777">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1492345196412" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
-            <marker date="1492345196412" expanded="true" signature="292:388" ph="INSERT INTO product... " />
-            <marker date="1492345196412" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
-            <marker date="1492345196412" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+            <marker date="1494445513033" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
+            <marker date="1494445513033" expanded="true" signature="292:388" ph="INSERT INTO product... " />
+            <marker date="1494445513033" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
+            <marker date="1494445513033" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+            <marker date="1494445513033" expanded="true" signature="684:796" ph="INSERT INTO bill... " />
+            <marker date="1494445513033" expanded="true" signature="845:914" ph="INSERT INTO cart... " />
+            <marker date="1494445513033" expanded="true" signature="973:1082" ph="INSERT INTO cart_composition... " />
+            <marker date="1494445513033" expanded="true" signature="1132:1219" ph="INSERT INTO region... " />
+            <marker date="1494445513033" expanded="true" signature="1272:1371" ph="INSERT INTO customer... " />
           </folding>
         </state>
       </provider>
@@ -1046,35 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/initdb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1492345196412" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
-            <marker date="1492345196412" expanded="true" signature="292:388" ph="INSERT INTO product... " />
-            <marker date="1492345196412" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
-            <marker date="1492345196412" expanded="true" signature="596:637" ph="SELECT id FR... product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1165,26 +1120,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1117">
-          <caret line="93" column="47" lean-forward="false" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1197,19 +1136,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/createdb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="962">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/shoppingCartItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/shoppingCartTotal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confirmPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2008">
+          <caret line="76" column="65" lean-forward="false" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/shoppingCart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="814">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initdb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <marker date="1494445513033" expanded="true" signature="161:242" ph="SELECT * FRO... product" />
+            <marker date="1494445513033" expanded="true" signature="292:388" ph="INSERT INTO product... " />
+            <marker date="1494445513033" expanded="true" signature="443:543" ph="INSERT INTO product_image... " />
+            <marker date="1494445513033" expanded="true" signature="596:637" ph="SELECT id FR... product" />
+            <marker date="1494445513033" expanded="true" signature="684:796" ph="INSERT INTO bill... " />
+            <marker date="1494445513033" expanded="true" signature="845:914" ph="INSERT INTO cart... " />
+            <marker date="1494445513033" expanded="true" signature="973:1082" ph="INSERT INTO cart_composition... " />
+            <marker date="1494445513033" expanded="true" signature="1132:1219" ph="INSERT INTO region... " />
+            <marker date="1494445513033" expanded="true" signature="1272:1371" ph="INSERT INTO customer... " />
+          </folding>
         </state>
       </provider>
     </entry>
