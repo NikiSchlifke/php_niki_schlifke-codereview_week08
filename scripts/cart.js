@@ -23,3 +23,4 @@ function removeProductFromChart(uuid) {
     localStorage.setItem(uuid, itemCount);
     return itemCount;
 }
+

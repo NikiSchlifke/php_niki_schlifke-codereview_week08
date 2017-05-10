@@ -1,4 +1,5 @@
 function Product(args, cartDOM) {
+    this.totalPrice = 0;
     this.cartDOM = cartDOM;
     this.name = args.name;
     this.price = Number(args.price);
@@ -21,7 +22,8 @@ function Product(args, cartDOM) {
             piece_s = ' piece: ';
         }
         this.cartCountDOM.text(count + piece_s);
-        this.cartPriceTotalDOM.text('$ ' + (this.price * count).toFixed(2));
+        this.totalPrice = this.price * count;
+        this.cartPriceTotalDOM.text('$ ' + this.totalPrice.toFixed(2));
     };
 
 
@@ -46,7 +48,7 @@ function Product(args, cartDOM) {
                                     self.cartDOM.append(self.cartItem());
                                 }
                                 self.setCount(count);
-
+                                updateTotalPrice();
                             }
                         ))
                 )));
@@ -58,14 +60,18 @@ function Product(args, cartDOM) {
         var self = this;
         var dom = $('<div class="card mb-3">');
         dom.append($('<div class="row">').append(
-            $('<div class="col-md-5 pr-0">')
-                .append($('<img class="card-img-left img-fluid">').attr('src', this.fileName).attr('alt', this.altText))
+            $('<div class="col-md-4 pr-0">')
+                .append($('<img class="card-img-left img-fluid">')
+                    .attr('src', this.fileName).attr('alt', this.altText))
             ).append(
-            $('<div class="col-md-7 pl-0">').append($('<div class="card-block py-0">').append(
+            $('<div class="col-md-8 pl-0">').append($('<div class="card-block py-0">').append(
                 $('<ul class="list-group list-group-flush">')
                     .append($('<li class="list-group-item row p-0">')
-                        .append($('<div class="col-md-6">').append(this.cartNameDOM))
-                        .append($('<div class="col-md-6">').append($('<h6 class="text-warning">').text('$ ' + this.price.toFixed(2))))
+                        .append($('<div class="col-md-6">')
+                            .append(this.cartNameDOM))
+                        .append($('<div class="col-md-6">')
+                            .append($('<h6 class="text-warning">')
+                                .text('$ ' + this.price.toFixed(2))))
                     )
                     .append($('<li class="list-group-item row p-0">')
                         .append($('<div class="col-md-6">').append(this.cartCountDOM))
@@ -73,8 +79,9 @@ function Product(args, cartDOM) {
             ).append($('<div class="card-block row py-0">')
                 .append($('<div class="col-md-3">')
                     .append($('<button class="btn btn-success">+</button>').click(function () {
-                        var count = addProductToCart(self.uuid);
-                        self.setCount(count);
+                            var count = addProductToCart(self.uuid);
+                            self.setCount(count);
+                            updateTotalPrice();
                         })
                     )
                 ).append($('<div class="col-md-6 text-center">').append(
@@ -83,10 +90,11 @@ function Product(args, cartDOM) {
                 .append($('<div class="col-md-3">')
                     .append($('<button class="btn btn-danger">-</button>').click(function () {
                             var count = removeProductFromChart(self.uuid);
-                            if (count < 1) {
+                            self.setCount(count);
+                            updateTotalPrice();
+                        if (count < 1) {
                                 dom.remove();
                             } else {
-                                self.setCount(count);
                             }
                         })
                     )
@@ -99,11 +107,22 @@ function Product(args, cartDOM) {
     };
 }
 var catalogItems = [];
+function updateTotalPrice() {
+    var total = 0;
+    for (product in catalogItems) {
+        if (catalogItems.hasOwnProperty(product)) {
+            total += catalogItems[product].totalPrice;
+        }
+    }
+    console.log(total);
+    $('#total-price').text('$ '+total.toFixed(2));
+}
+
 
 $(document).ready(function () {
 
     var catalogDOM = $('#product-catalog');
-    var cartDOM = $('#product-cart');
+    var cartDOM = $('#product-cart-items');
     $.getJSON('getProducts.php', function (items) {
         items.forEach(function (item) {
             var product = new Product(item, cartDOM);
@@ -115,6 +134,7 @@ $(document).ready(function () {
                 cartDOM.append(product.cartItem());
             }
         });
+        updateTotalPrice();
     });
 
 });
