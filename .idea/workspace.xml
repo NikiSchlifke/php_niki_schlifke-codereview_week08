@@ -459,7 +459,7 @@
       <workItem from="1492424282670" duration="6425000" />
       <workItem from="1492776110044" duration="12941000" />
       <workItem from="1493024090468" duration="17000" />
-      <workItem from="1494427776784" duration="17490000" />
+      <workItem from="1494427776784" duration="17526000" />
     </task>
     <task id="LOCAL-00001" summary="add shopping cart total display">
       <created>1494436165418</created>
@@ -517,11 +517,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494445874351</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="remove .idea jetbrains settings">
+      <created>1494445946944</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1494445946944</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58130000" />
+    <option name="totallyTimeSpent" value="58166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="-7" width="3094" height="1807" extended-state="6" />
