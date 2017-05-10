@@ -454,7 +454,7 @@
       <workItem from="1492424282670" duration="6425000" />
       <workItem from="1492776110044" duration="12941000" />
       <workItem from="1493024090468" duration="17000" />
-      <workItem from="1494427776784" duration="17353000" />
+      <workItem from="1494427776784" duration="17378000" />
     </task>
     <task id="LOCAL-00001" summary="add shopping cart total display">
       <created>1494436165418</created>
@@ -491,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494445792165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor pages">
+      <created>1494445814772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1494445814772</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57993000" />
+    <option name="totallyTimeSpent" value="58018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="-7" width="3094" height="1807" extended-state="6" />
@@ -532,9 +539,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add shopping cart total display" />
     <MESSAGE value="add payment form" />
-    <MESSAGE value="refactor pages" />
     <MESSAGE value="remove .idea jetbrains settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove .idea jetbrains settings" />
+    <MESSAGE value="refactor pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
