@@ -1,0 +1,15 @@
+{
+  "name": "niki_schlifke/codefactory_ecommerce",
+  "description": "A simple e commerce site",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Nikolaus Schlifke ",
+      "email": "nikolaus.schlifke@gmail.com"
+    }
+  ],
+  "require": {
+    "fzaninotto/faker": "^1.6@dev"
+  }
+}
