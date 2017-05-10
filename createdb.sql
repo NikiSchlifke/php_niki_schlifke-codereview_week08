@@ -53,8 +53,7 @@ CREATE TABLE IF NOT EXISTS product_image
 CREATE TABLE IF NOT EXISTS cart
 (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  customer_id INT,
-  bill_id INT
+  customer_id INT
 );
 
 CREATE TABLE IF NOT EXISTS bill
