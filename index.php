@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="card-block">
-                            <a href="#" class="btn btn-success checkout-buttons">PROCEED TO CHECKOUT</a>
+                            <a href="confirmPayment.php" class="btn btn-success checkout-buttons">PROCEED TO CHECKOUT</a>
                         </div>
 
                     </div>
