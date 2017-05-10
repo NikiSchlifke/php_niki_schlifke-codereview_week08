@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48c465df-1c04-4514-bdd3-b61569c3675e" name="Default" comment="">
+    <list default="true" id="48c465df-1c04-4514-bdd3-b61569c3675e" name="Default" comment="remove .idea jetbrains settings">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php_niki_schlifke-codereview_week08.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,16 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/cart.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initdb.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="initdb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/initdb.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="944">
@@ -146,6 +142,16 @@
                 <marker date="1494445513033" expanded="true" signature="1132:1219" ph="INSERT INTO region... " />
                 <marker date="1494445513033" expanded="true" signature="1272:1371" ph="INSERT INTO customer... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -225,6 +231,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/confirmPayment.php" />
         <option value="$PROJECT_DIR$/initdb.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -452,7 +459,7 @@
       <workItem from="1492424282670" duration="6425000" />
       <workItem from="1492776110044" duration="12941000" />
       <workItem from="1493024090468" duration="17000" />
-      <workItem from="1494427776784" duration="17402000" />
+      <workItem from="1494427776784" duration="17490000" />
     </task>
     <task id="LOCAL-00001" summary="add shopping cart total display">
       <created>1494436165418</created>
@@ -503,11 +510,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494445836331</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="remove .idea jetbrains settings">
+      <created>1494445874351</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1494445874351</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58042000" />
+    <option name="totallyTimeSpent" value="58130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="-7" width="3094" height="1807" extended-state="6" />
@@ -544,23 +558,15 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add shopping cart total display" />
     <MESSAGE value="add payment form" />
-    <MESSAGE value="remove .idea jetbrains settings" />
     <MESSAGE value="refactor pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor pages" />
+    <MESSAGE value="remove .idea jetbrains settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove .idea jetbrains settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/populatedb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -1263,6 +1269,14 @@
             <marker date="1494445513033" expanded="true" signature="1132:1219" ph="INSERT INTO region... " />
             <marker date="1494445513033" expanded="true" signature="1272:1371" ph="INSERT INTO customer... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
