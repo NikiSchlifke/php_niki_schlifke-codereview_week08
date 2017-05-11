@@ -21,7 +21,7 @@ if (isset($_POST)) {
         $products = $data['products'];
         if (empty($products)) {
             http_response_code(410);
-            echo json_encode(['status' => 'error', 'message' => 'Your shopping cart is empty. To get back to the product catalog press on the button in the top left corner.']);
+            echo json_encode(['status' => 'error', 'message' => 'Your shopping cart is empty. To get back to the product catalog press on the button in the top right corner.']);
             exit();
         }
 
