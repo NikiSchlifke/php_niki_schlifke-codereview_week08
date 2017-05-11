@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48c465df-1c04-4514-bdd3-b61569c3675e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createdb.sql" afterPath="$PROJECT_DIR$/createdb.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/payment.js" afterPath="$PROJECT_DIR$/scripts/payment.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,43 +70,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="confirmPayment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/confirmPayment.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1101">
-              <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+            <state relative-caret-position="814">
+              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initdb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/initdb.php">
+      <file leaf-file-name="getProducts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <marker date="1494460050421" expanded="true" signature="1363:1444" ph="SELECT * FRO... product" />
-                <marker date="1494460050421" expanded="true" signature="1494:1590" ph="INSERT INTO product... " />
-                <marker date="1494460050421" expanded="true" signature="1506:1590" ph="INSERT INTO product... " />
-                <marker date="1494460050421" expanded="true" signature="1645:1745" ph="INSERT INTO product_image... " />
-                <marker date="1494460050421" expanded="true" signature="1657:1745" ph="INSERT INTO product_image... " />
-                <marker date="1494460050421" expanded="true" signature="1798:1839" ph="SELECT id FR... product" />
-                <marker date="1494460050421" expanded="true" signature="1886:1998" ph="INSERT INTO bill... " />
-                <marker date="1494460050421" expanded="true" signature="1898:1998" ph="INSERT INTO bill... " />
-                <marker date="1494460050421" expanded="true" signature="2047:2098" ph="INSERT INTO cart... " />
-                <marker date="1494460050421" expanded="true" signature="2059:2098" ph="INSERT INTO cart... " />
-                <marker date="1494460050421" expanded="true" signature="2157:2266" ph="INSERT INTO cart_composition... " />
-                <marker date="1494460050421" expanded="true" signature="2316:2403" ph="INSERT INTO region... " />
-                <marker date="1494460050421" expanded="true" signature="2454:2521" ph="INSERT INTO address... " />
-                <marker date="1494460050421" expanded="true" signature="2570:2657" ph="INSERT INTO user... " />
-                <marker date="1494460050421" expanded="true" signature="2709:2808" ph="INSERT INTO customer... " />
-                <marker date="1494460050421" expanded="true" signature="2721:2808" ph="SELECT id cu... " />
-                <marker date="1494460050421" expanded="true" signature="2894:2993" ph="SELECT id FR... region" />
-                <marker date="1494460050421" expanded="true" signature="3044:3115" ph="SELECT id FR... address" />
-                <marker date="1494460050421" expanded="true" signature="3164:3204" ph="SELECT id FR... user" />
-                <marker date="1494460050421" expanded="true" signature="3256:3363" ph="SELECT id FR... customer" />
-              </folding>
+            <state relative-caret-position="407">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,28 +93,40 @@
       <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3367">
-              <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+            <state relative-caret-position="2692">
+              <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/cart.js">
+      <file leaf-file-name="payment.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/payment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="962">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="88" column="36" lean-forward="false" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shoppingCartTotal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/shoppingCartTotal.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="555">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,21 +135,29 @@
       <file leaf-file-name="buyProducts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buyProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="833">
+              <caret line="23" column="165" lean-forward="false" selection-start-line="23" selection-start-column="165" selection-end-line="23" selection-end-column="165" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/payment.js">
+      <file leaf-file-name="composer.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="147" column="29" lean-forward="false" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="populatedb.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/populatedb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,28 +165,8 @@
       <file leaf-file-name="shoppingCartItems.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/shoppingCartItems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createdb.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/createdb.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apiHelpers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/apiHelpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="7" column="11" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="37">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -229,7 +208,6 @@
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/confirmPayment.php.html" />
         <option value="$PROJECT_DIR$/includes/shoppingcart.php" />
-        <option value="$PROJECT_DIR$/includes/shoppingCartItems.php" />
         <option value="$PROJECT_DIR$/includes/shoppingCart.php" />
         <option value="$PROJECT_DIR$/includes/shoppingCartTotal.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -239,9 +217,10 @@
         <option value="$PROJECT_DIR$/initdb.php" />
         <option value="$PROJECT_DIR$/scripts/cart.js" />
         <option value="$PROJECT_DIR$/scripts/product.js" />
-        <option value="$PROJECT_DIR$/buyProducts.php" />
-        <option value="$PROJECT_DIR$/scripts/payment.js" />
         <option value="$PROJECT_DIR$/createdb.sql" />
+        <option value="$PROJECT_DIR$/buyProducts.php" />
+        <option value="$PROJECT_DIR$/includes/shoppingCartItems.php" />
+        <option value="$PROJECT_DIR$/scripts/payment.js" />
       </list>
     </option>
   </component>
@@ -470,7 +449,7 @@
       <workItem from="1492424282670" duration="6425000" />
       <workItem from="1492776110044" duration="12941000" />
       <workItem from="1493024090468" duration="17000" />
-      <workItem from="1494427776784" duration="36405000" />
+      <workItem from="1494427776784" duration="38480000" />
     </task>
     <task id="LOCAL-00001" summary="add shopping cart total display">
       <created>1494436165418</created>
@@ -563,11 +542,39 @@
       <option name="project" value="LOCAL" />
       <updated>1494463953653</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix db to use utf-8">
+      <created>1494465250240</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1494465250240</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix dyslexic mistake">
+      <created>1494465303159</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1494465303159</updated>
+    </task>
+    <task id="LOCAL-00016" summary="remove invalid .submit() call on the payment form jquery chain, already using jquery validator submit handler">
+      <created>1494465789811</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1494465789811</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix bs4 related layout bug">
+      <created>1494466512723</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1494466512723</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77045000" />
+    <option name="totallyTimeSpent" value="79120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="-7" width="3094" height="1807" extended-state="6" />
@@ -609,42 +616,17 @@
     <MESSAGE value="add database insertion of order data" />
     <MESSAGE value="submit product and user data to server, display status messages" />
     <MESSAGE value="clear shopping cart on successful order, display message.&#10;If user clicks the order button on empty chart display message and auto redirect after 5 seconds." />
-    <option name="LAST_COMMIT_MESSAGE" value="clear shopping cart on successful order, display message.&#10;If user clicks the order button on empty chart display message and auto redirect after 5 seconds." />
+    <MESSAGE value="fix db to use utf-8" />
+    <MESSAGE value="fix dyslexic mistake" />
+    <MESSAGE value="remove invalid .submit() call on the payment form jquery chain, already using jquery validator submit handler" />
+    <MESSAGE value="fix bs4 related layout bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bs4 related layout bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/initdb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1494460050421" expanded="true" signature="1363:1444" ph="SELECT * FRO... product" />
-            <marker date="1494460050421" expanded="true" signature="1494:1590" ph="INSERT INTO product... " />
-            <marker date="1494460050421" expanded="true" signature="1506:1590" ph="INSERT INTO product... " />
-            <marker date="1494460050421" expanded="true" signature="1645:1745" ph="INSERT INTO product_image... " />
-            <marker date="1494460050421" expanded="true" signature="1657:1745" ph="INSERT INTO product_image... " />
-            <marker date="1494460050421" expanded="true" signature="1798:1839" ph="SELECT id FR... product" />
-            <marker date="1494460050421" expanded="true" signature="1886:1998" ph="INSERT INTO bill... " />
-            <marker date="1494460050421" expanded="true" signature="1898:1998" ph="INSERT INTO bill... " />
-            <marker date="1494460050421" expanded="true" signature="2047:2098" ph="INSERT INTO cart... " />
-            <marker date="1494460050421" expanded="true" signature="2059:2098" ph="INSERT INTO cart... " />
-            <marker date="1494460050421" expanded="true" signature="2157:2266" ph="INSERT INTO cart_composition... " />
-            <marker date="1494460050421" expanded="true" signature="2316:2403" ph="INSERT INTO region... " />
-            <marker date="1494460050421" expanded="true" signature="2454:2521" ph="INSERT INTO address... " />
-            <marker date="1494460050421" expanded="true" signature="2570:2657" ph="INSERT INTO user... " />
-            <marker date="1494460050421" expanded="true" signature="2709:2808" ph="INSERT INTO customer... " />
-            <marker date="1494460050421" expanded="true" signature="2721:2808" ph="SELECT id cu... " />
-            <marker date="1494460050421" expanded="true" signature="2894:2993" ph="SELECT id FR... region" />
-            <marker date="1494460050421" expanded="true" signature="3044:3115" ph="SELECT id FR... address" />
-            <marker date="1494460050421" expanded="true" signature="3164:3204" ph="SELECT id FR... user" />
-            <marker date="1494460050421" expanded="true" signature="3256:3363" ph="SELECT id FR... customer" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1076,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/71eb88ac/75e0d0d2-94d6-49ad-8cea-39abe6a9f2f4/ecommerce.product">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1106,14 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/populatedb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,26 +1190,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/shoppingCart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1259,14 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1067">
           <caret line="1009" column="20" lean-forward="false" selection-start-line="1009" selection-start-column="20" selection-end-line="1009" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1308,34 +1251,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/shoppingCartTotal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/shoppingCartItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="962">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3367">
-          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1348,29 +1267,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/createdb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/shoppingCartTotal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/shoppingCartItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populatedb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/buyProducts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="833">
+          <caret line="23" column="165" lean-forward="false" selection-start-line="23" selection-start-column="165" selection-end-line="23" selection-end-column="165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2692">
+          <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/payment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="147" column="29" lean-forward="false" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+        <state relative-caret-position="962">
+          <caret line="88" column="36" lean-forward="false" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

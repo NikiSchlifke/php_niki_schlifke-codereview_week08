@@ -86,7 +86,7 @@ function generateSuccessMessage() {
         ". You will be pleased to know that it will be delivered to the confirmed address " +
         $('#address').val() +
         " on " +
-        tomorrow +
+        tomorrow.toLocaleDateString() +
         " ready for your celebration.").appendTo(mainDOM);
     $('<br>').appendTo(mainDOM);
 
