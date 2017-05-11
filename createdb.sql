@@ -1,5 +1,5 @@
 DROP DATABASE ecommerce;
-CREATE DATABASE ecommerce;
+CREATE DATABASE ecommerce CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE ecommerce;
 
 CREATE TABLE IF NOT EXISTS user
