@@ -24,4 +24,3 @@ function removeProductFromChart(uuid) {
     return itemCount;
 }
 
-

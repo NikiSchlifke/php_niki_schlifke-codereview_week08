@@ -13,6 +13,8 @@ function Product(args, cartDOM) {
     this.cartPriceTotalDOM = $('<h5 class="text-warning">');
     this.cartCountDOM = $('<p>');
     this.cartNameDOM = $('<h6>').text(this.name);
+    this.cartItemDOM = $('<div class="card mb-3">');
+
 
     this.setCount = function (count) {
         var piece_s;
@@ -58,8 +60,7 @@ function Product(args, cartDOM) {
 
     this.cartItem = function () {
         var self = this;
-        var dom = $('<div class="card mb-3">');
-        dom.append($('<div class="row">').append(
+        this.cartItemDOM.append($('<div class="row">').append(
             $('<div class="col-md-4 pr-0">')
                 .append($('<img class="card-img-left img-fluid">')
                     .attr('src', this.fileName).attr('alt', this.altText))
@@ -93,7 +94,7 @@ function Product(args, cartDOM) {
                             self.setCount(count);
                             updateTotalPrice();
                         if (count < 1) {
-                                dom.remove();
+                                self.cartItemDOM.remove();
                             } else {
                             }
                         })
@@ -103,7 +104,7 @@ function Product(args, cartDOM) {
             )
         );
 
-        return dom;
+        return this.cartItemDOM;
     };
 }
 var catalogItems = [];
@@ -114,7 +115,6 @@ function updateTotalPrice() {
             total += catalogItems[product].totalPrice;
         }
     }
-    console.log(total);
     $('#total-price').text('$ '+total.toFixed(2));
 }
 

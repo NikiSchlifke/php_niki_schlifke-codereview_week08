@@ -19,6 +19,12 @@ if (isset($_POST)) {
         ) { showError(400, 'Missing Input'); }
 
         $products = $data['products'];
+        if (empty($products)) {
+            http_response_code(410);
+            echo json_encode(['status' => 'error', 'message' => 'Your shopping cart is empty. To get back to the product catalog press on the button in the top left corner.']);
+            exit();
+        }
+
         $eMail = $data['eMail'];
         $firstName = $data['firstName'];
         $lastName = $data['lastName'];

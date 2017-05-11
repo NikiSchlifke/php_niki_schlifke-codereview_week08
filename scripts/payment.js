@@ -19,6 +19,31 @@ $.validator.setDefaults({
     }
 });
 
+function getPickedProductNames() {
+    var products = [];
+    for (item in catalogItems) {
+        if (catalogItems.hasOwnProperty(item)) {
+            productCount = getProductInCartCount(catalogItems[item].uuid);
+            if (productCount > 0) {
+                products.push(catalogItems[item].name);
+            }
+        }
+    }
+    return products;
+}
+function emptyChart() {
+    var products = {};
+    for (item in catalogItems) {
+        if (catalogItems.hasOwnProperty(item)) {
+            productCount = getProductInCartCount(catalogItems[item].uuid);
+            if (productCount > 0) {
+                localStorage.removeItem(catalogItems[item].uuid);
+                catalogItems[item].cartDOM.remove();
+            }
+        }
+    }
+    return products;
+}
 function getPickedProducts() {
     var products = {};
     for (item in catalogItems) {
@@ -72,18 +97,7 @@ function generateSuccessMessage() {
     return mainDOM;
 }
 
-function getPickedProductNames() {
-    var products = [];
-    for (item in catalogItems) {
-        if (catalogItems.hasOwnProperty(item)) {
-            productCount = getProductInCartCount(catalogItems[item].uuid);
-            if (productCount > 0) {
-                products.push(catalogItems[item].name);
-            }
-        }
-    }
-    return products;
-}
+
 
 function submitResults() {
     $.ajax({
@@ -121,16 +135,22 @@ function submitResults() {
 
 
             },
+            410: function (response) {
+                // for 2XX responses the data is contained right in the object.
+                var message = response.responseJSON.message;
+                showMessage(message, 'alert-warning');
+                setTimeout("location.href = 'index.php';",5000);
+            },
             201: function (response) {
                 // for 2XX responses the data is contained right in the object.
                 var message = generateSuccessMessage();
                 showMessage(message, 'alert-success');
-
-
+                emptyChart();
             }
         }
     });
 }
+
 
 $(document).ready(function(){
     $('#payment-form').validate({
