@@ -162,8 +162,6 @@ $(document).ready(function(){
             card_number: "Please supply a valid credit card number."
         },
         submitHandler: submitResults
-    }).submit(function (event) {
-        event.preventDefault();
     });
 });
 
