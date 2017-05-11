@@ -29,10 +29,10 @@ function getFirstRecord(PDOStatement $getQuery, $getParams) {
     }
 
     $getResult = $getQuery->fetch();
-    if (isset($getResult['id'])) {
-        return $getResult['id'];
+    if (!isset($getResult['id'])) {
+        throw new OutOfBoundsException('Id not found.');
     }
-    throw new OutOfBoundsException('Id not found.');
+    return $getResult['id'];
 }
 
 function addRecord(PDOStatement $addQuery, $addParams) {
