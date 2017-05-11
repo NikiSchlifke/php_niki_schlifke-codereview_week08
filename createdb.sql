@@ -93,3 +93,5 @@ ALTER TABLE cart_composition
 
 ALTER TABLE bill
   ADD CONSTRAINT bill_cart FOREIGN KEY  (cart_id) REFERENCES cart (id);
+
+INSERT INTO region (id, nation, country, city, zip) VALUES (1, 'Austria', 'Vienna', 'Vienna', '1020');

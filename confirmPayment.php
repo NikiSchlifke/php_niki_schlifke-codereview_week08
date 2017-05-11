@@ -16,7 +16,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
             integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
             crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="application/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"
+            type="application/javascript"></script>
     <link rel="stylesheet" href="css/main.css">
     <title>Enter your Details</title>
 </head>
@@ -24,57 +25,60 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-8">
-    <div class="my-5">
-    <h3>Confirm Payment</h3>
-    <h5 class="text-muted">Please enter your personal details and payment Information.</h5>
-    </div>
-        <form id="payment-form">
+            <div class="my-5">
+                <h3>Confirm Payment</h3>
+                <h5 class="text-muted">Please enter your personal details and payment Information.</h5>
+            </div>
+            <form id="payment-form">
 
-    <div class="row">
-        <div class="col-xs-12 col-md-6 form-group">
-            <label for="first_name">
-                First Name*
-            </label>
-            <input required class="form-control" type="text" name="first_name" id="first_name">
-        </div>
-        <div class="col-xs-12 col-md-6 form-group">
-            <label for="last_name">
-                Last Name*
-            </label>
-            <input required class="form-control" type="text" name="last_name" id="last_name">
-        </div>
-        <div class="col-xs-12 col-md-6 form-group">
-            <label for="e_mail">
-                E-mail*
-            </label>
-            <input required class="form-control" type="email" name="e_mail" id="e_mail">
-        </div>
-        <div class="col-xs-12 col-md-6 form-group">
-            <label for="address">
-                Address*
-            </label>
-            <input required class="form-control" type="text" name="address" id="address">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 form-group">
+                        <label for="first_name">
+                            First Name*
+                        </label>
+                        <input required class="form-control" type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="col-xs-12 col-md-6 form-group">
+                        <label for="last_name">
+                            Last Name*
+                        </label>
+                        <input required class="form-control" type="text" name="last_name" id="last_name">
+                    </div>
+                    <div class="col-xs-12 col-md-6 form-group">
+                        <label for="e_mail">
+                            E-mail*
+                        </label>
+                        <input required class="form-control" type="email" name="e_mail" id="e_mail">
+                    </div>
+                    <div class="col-xs-12 col-md-6 form-group">
+                        <label for="address">
+                            Address*
+                        </label>
+                        <input required class="form-control" type="text" name="address" id="address">
 
-        </div>
-        <div class="col-md-12 form-group">
-            <label for="card_number">
-                Credit Card Number*
-            </label>
-            <input required class="form-control" type="text" name="card_number" id="card_number">
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <label for="card_number">
+                            Credit Card Number*
+                        </label>
+                        <input required class="form-control" type="text" name="card_number" id="card_number">
 
-        </div>
-        <div class="form-group col-md-3 my-4">
-                <h5 class="text-muted">Total <span id="total-price">0.00</span></h5>
-            <button type="submit" class="btn btn-success px-4 form-control" id="pay-now">Pay now</button>
+                    </div>
+                    <div class="form-group col-md-3 my-4">
+                        <h5 class="text-muted">Total <span id="total-price">0.00</span></h5>
+                        <button type="submit" class="btn btn-success px-4 form-control" id="pay-now">Pay now</button>
 
-        </div>
+                    </div>
 
-    </div>
-        </form>
-    <p class="text-muted">* These fields are required.</p>
+                </div>
+            </form>
+            <p class="text-muted">* These fields are required.</p>
+            <div class="row" id="message-box"></div>
         </div>
         <div class="col-md-4 text-center" id="product-cart">
-            <?php require_once 'includes/shoppingCartItems.php'?>
+            <?php require_once 'includes/shoppingCartItems.php' ?>
+
+            <a href="index.php" class="btn btn-success">CONTINUE SHOPPING</a>
 
         </div>
     </div>

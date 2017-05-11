@@ -2,8 +2,8 @@
 header('Content-Type: application/json');
 
 function showError($httpCode, $message) {
-    global $con;
+    global $dbh;
     http_response_code($httpCode);
-    echo json_encode(['status' => 'error', 'message' => $message, 'dberror' => $con->error]);
+    echo json_encode(['status' => 'error', 'message' => $message.json_encode($dbh->errorInfo())]);
     exit();
 }

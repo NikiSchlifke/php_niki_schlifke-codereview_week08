@@ -15,6 +15,9 @@ function getFirstOrAddRecord(PDOStatement $getQuery, PDOStatement $addQuery, $ge
     try {
         return getFirstRecord($getQuery, $getParams);
     } catch (OutOfBoundsException $exception) {
+        if (is_null($addParams)) {
+            $addParams = $getParams;
+        }
         return addRecord($addQuery, $addParams);
     }
 }

@@ -8,58 +8,60 @@ require_once 'includes/apiHelpers.php';
 if (isset($_POST)) {
     try {
         $data = json_decode(file_get_contents('php://input'), true);
+        error_log(json_encode($data));
         if (
             !isset($data['products']) ||
-            !isset($data['email']) ||
+            !isset($data['eMail']) ||
             !isset($data['firstName']) ||
             !isset($data['lastName']) ||
             !isset($data['address']) ||
-            !isset($data['creditCartNumber'])
+            !isset($data['creditCardNumber'])
         ) { showError(400, 'Missing Input'); }
 
-        $products = array_unique($data['products']);
-        $email = $data['email'];
+        $products = $data['products'];
+        $eMail = $data['eMail'];
         $firstName = $data['firstName'];
         $lastName = $data['lastName'];
         $address = $data['address'];
-        $creditCardNumber = $data['creditCartNumber'];
+        $creditCardNumber = $data['creditCardNumber'];
 
         $addressId = getFirstOrAddRecord($getAddressSQL, $addAddressSQL, [
-            'street' => $address,
-            'regionId' => 1
+            ':street' => $address,
+            ':regionId' => 1
         ]);
 
         $customerId = getFirstOrAddRecord($getCustomerSQL, $addCustomerSQL, [
-            'firstName' => $firstName,
-            'lastName' => $lastName,
-            'addressId' => $addressId
+            ':firstName' => $firstName,
+            ':lastName' => $lastName,
+            ':addressId' => $addressId
         ]);
 
         $userId = getFirstOrAddRecord($getUserSQL, $addUserSQL, [
-            'eMail' => $email
+            ':eMail' => $eMail
         ], [
-            'eMail' => $email,
-            'password' => 'none'
+            ':eMail' => $eMail,
+            ':password' => 'none',
+            ':customerId' => $customerId
         ]);
 
         $cartId = addRecord($addCartSQL, [
-            'customerId' => $customerId
+            ':customerId' => $customerId
         ]);
 
         $billId = addRecord($addBillSQL, [
-            'creditCardNumber' => $creditCardNumber,
-            'cartId' => $cartId
+            ':creditCardNumber' => $creditCardNumber,
+            ':cartId' => $cartId
         ]);
-
         foreach ($products as $productUUID => $productCount) {
-
             $productId = getFirstRecord($selectProductSQL, [
-                'uuid' => $productUUID
+                ':uuid' => $productUUID
             ]);
+            error_log("User $userId buys product $productId ($productUUID)");
+
             $cartCompositionId = addRecord($addCartCompositionSQL, [
-                'productId' => $productId,
-                'productCount' => $productCount,
-                'cartId' => $cartId
+                ':productId' => $productId,
+                ':productCount' => $productCount,
+                ':cartId' => $cartId
             ]);
         }
 
